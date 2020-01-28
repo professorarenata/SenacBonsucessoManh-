@@ -1,6 +1,5 @@
 <html>
 <head>
-
 <script>
 function soma(form1)
 {
@@ -16,29 +15,23 @@ function sub(form1)
    c=new Number(a-b);
    alert("A subtração dos números é:  "+c);
 }
-function mult(form1)
+function multiplicação(form1)
 {
    a=new Number(form1.t1.value);
    b=new Number(form1.t2.value);
    c=new Number(a*b);
    alert("A multiplicação dos números é:  "+c);
 }
-function div(form1)
+function divi(form1)
 {
    a=new Number(form1.t1.value);
    b=new Number(form1.t2.value);
    c=new Number(a/b);
    alert("A divisão dos números é:  "+c);
 }
-	
 </script>
-
 </head>
-<style>
-body {
-	background-color: #87CEEB;
-	}
-</style>
+
 <body>
 <center><h1>Calculadora <br><br> </h1>
   <h3>
@@ -49,8 +42,8 @@ Digite um número:
   <input type="text" name="t2"><br><br>
   <input type="button" name="b1" value="+" onClick="soma(form1)">
   <input type="button" name="b2" value="-" onClick="sub(form1)">
-  <input type="button" name="b3" value="*" onClick="mult(form1)">
-  <input type="button" name="b4" value="/" onClick="div(form1)">
+  <input type="button" name="b3" value="*" onClick="multiplicação(form1)">
+  <input type="button" name="b4" value="/" onClick="divi(form1)">
   <br><br>
   Escolha a cor da HomePage:<br>
   
